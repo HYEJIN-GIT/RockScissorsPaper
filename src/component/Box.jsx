@@ -17,7 +17,9 @@ const Box = (props) => {
     <div className={`box-area ${result}`}>
       <h2>{props.title}</h2>
      <div className='state-area'>{props.item ? props.item.img : "💤" }</div>
-     <div>결과 :{result}  </div>
+     <div>{result} </div>
+     <div>{props.win}</div>
+
     </div>
   )
 }

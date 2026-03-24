@@ -103,9 +103,9 @@ const reset = ()=>{
     <div className='boarder-area'>
       <div className='score-board'>기회 : {chance}번</div>
     <div className='box-container'>
-      <Box title="user" item={userSelect} result={result} />
+      <Box title="user" item={userSelect} result={result} win={userWin} />
       <h2>vs</h2>
-      <Box title="computer" item={computerSelect} result={result} />
+      <Box title="computer" item={computerSelect} result={result} win={computerWin} />
     </div>
   
   <div className='result-text'>
