@@ -4,7 +4,7 @@ import React from 'react'
 const Box = (props) => {
   const result =
   !props.result
-    ? "결과없음"
+    ? "준비중👌"
     : props.title === "computer"
     ? props.result === "Tie"
       ? "Tie"

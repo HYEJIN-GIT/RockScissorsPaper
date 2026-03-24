@@ -123,9 +123,12 @@ const reset = ()=>{
       <button disabled={chance === 0}  onClick={() => play("rock")}>주먹</button>
       <button  disabled={chance === 0}  onClick={() => play("scissors")}>가위</button>
       <button  disabled={chance === 0}  onClick={() => play("paper")}>보</button>
-      <button onClick = {()=>reset()}>리셋</button>
+    
     </div>
-  
+    <div className='reset-area'>
+    <button   onClick = {()=>reset()}>리셋</button>
+    </div>
+   
   </div>
   )
 }
